@@ -177,9 +177,6 @@ ul.row {
     display: table;          
     clear: both; 
 }
-footer {
-    padding: var(--footer-padding);
-}
 .footer-copyright {
     margin: 0; 
     font-size: var(--font-size-small);
@@ -197,4 +194,8 @@ footer {
 }
 .social-link svg {
     fill: var(--text-color);
+}
+
+footer {
+    padding: var(--footer-padding);
 }
